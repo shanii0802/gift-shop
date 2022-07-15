@@ -1,0 +1,52 @@
+
+        body{
+            background:#ecf0f5;
+            font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif;  
+        }
+        .cust-bg{
+              background: #667db6; 
+              
+        }
+		.nav-back{
+			background: #1488cc;
+			color: #FFF;
+		}
+        ul li a{
+            color:#b8c7ce;
+        }
+        ul li:hover{
+            background: #1488cc;
+            color:#b8c7ce;
+            font-weight: bold;
+        }
+        .form-control{
+          border-radius: 0px;
+        }
+        .btn{
+          border-radius: 0px;
+        }
+        .cust-btn:hover{
+          background: #667db6;
+        }
+        .cust-btn{
+          background: #667db6;
+          color: #FFF;
+        }
+        .text-color{
+          color: #667db6;
+        }
+
+        .top-bg{
+          background: #1488cc;
+          color: #FFF;          
+        }
+        .cust-btn-in:hover{
+          background: #1488cc;
+        }
+        .cust-btn-in{
+          background: #1488cc;
+          color: #FFF;
+        }
+        .text-color-in{
+          color: #1488cc;
+        }

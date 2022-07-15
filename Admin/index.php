@@ -17,34 +17,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>ONLINE FABRICS EMPORIUM</title>
+	<title>You Think We Wrap</title>
+
         <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+
 	  <style>
-        body{
-            background:#ecf0f5;
-        }
-		.nav-back{
-			background:#3c8dbc;
-			color: #FFF;
-		}
 	  </style>
 </head>
 <body>
-<nav class=" nav-back">
-            <center><h3>ONLINE FABRICS EMPORIUM</h3></center>
-            <center><h4>ADMIN PANNEL</h4></center>                     
+<nav class=" nav-back py-2">
+	<?php include 'toptext.php' ?>
        </nav>
 	 <div class="container-fluid">
 
 	  	 <div class="container-fluid">
             <div class="container mt-4">
                 <div class="row py-4">
-                    <div class="col-md-4" style="">
-                        <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
+                    <div class="col-md-4 py-4" style="">
+                        <figure><img src="images/admin.png" alt="sing up image" height="300" width="300"></figure>
                     </div>
 
-                    <div class="col-md-4">
-                        <h2 class="form-title">LOGIN</h2>
+                    <div class="col-md-4 py-4">
+                        <h2 class="form-title text-color-in"><center><b>LOGIN</b></center></h2>
                         <form method="POST">
                             <div class="form-group">
                                 <input type="text" class="form-control" name="username" id="username" required="_required"placeholder="username"/>
@@ -54,10 +49,10 @@
                             </div>
                             
                             <div class="form-group form-button">
-                                <input type="submit" name="login" class="btn btn-warning btn-block" value="LOGIN"/>
+                                <input type="submit" name="login" class="cust-btn-in btn btn-block" value="LOGIN"/>
                             </div>
             			     <div class="form-group">
-                                <a href="../" class="btn btn-success btn-block">GO TO USER PANNEL</a>
+                                <a href="../" class="cust-btn-in btn btn-block">GO TO USER PANNEL</a>
                             </div>
                         </form>
                         
@@ -66,5 +61,6 @@
             </div>
 	  </div>
 	  </div>
+	  <?php include 'footer.php'; ?>
 </body>
 </html>
